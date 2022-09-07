@@ -1,0 +1,53 @@
+body {
+  font-family: "Lato", "Mukta", "Noto Serif";
+}
+h1 {
+  font-family: "Catamaran", sans-serif;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.swiper-pagination {
+  margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.swiper-button-next {
+  background-image: url(../assets/images/arrowright.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  margin-right: 15px;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url(../assets/images/arrowleft.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  margin-left: 15px;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
