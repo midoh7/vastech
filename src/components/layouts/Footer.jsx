@@ -1,5 +1,5 @@
 import React from "react";
-import raxi from "../../assets/images/raxii.png";
+import v from "../../assets/images/v.png";
 import { FaFacebookF, FaTwitter, FaPinterestP } from "react-icons/fa";
 
 export default function Footer() {
@@ -31,7 +31,8 @@ export default function Footer() {
     <footer className=" text-slate-300 bg-[#112553] px-4 py-5 xl:w-full md:w-3/4 mx-auto">
       <div className="max-w-lg sm:mx-auto sm:text-center">
         <img
-          src={raxi}
+          src={v}
+          alt="v"
           className="w-12 p-[0.13rem] pl-1 border-2 border-blue-400 rounded-full border-dotted sm:mx-auto"
         />
         <p className="leading-relaxed mt-2 text-[15px]">
@@ -49,7 +50,7 @@ export default function Footer() {
       </ul>
       <div className="mt-8 items-center justify-between sm:flex">
         <div className="mt-4 sm:mt-0">
-          &copy; 2022 RaxiTech All rights reserved.
+          &copy; 2022 vTech All rights reserved.
         </div>
         <div className="mt-6 sm:mt-0">
           <ul className="flex items-center space-x-4">
