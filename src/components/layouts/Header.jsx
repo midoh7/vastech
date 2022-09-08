@@ -20,10 +20,6 @@ export default function Header() {
       <div className="hidden fixed w-screen mx-auto lg:block bg-white backdrop-blur-[3px] bg-opacity-90 h-16 z-50">
         <div className="text-[#0D3369] mx-[6%] flex flex-row justify-between items-center h-full border-b-[1px]">
           <div className="flex flex-col items-center justify-center">
-            {/* <div className="justify-items-start font-bold text-2xl leading-5">
-              <h1>VASTECH</h1>
-            </div>
-            <p className=" text-[0.65rem]">Your values we drive IT</p> */}
             <img src={vasdark} alt="VASTECH" className="h-7" />
           </div>
           <div className="flex flex-row gap-0 lg:gap-9 justify-end text-[0.85rem]">
