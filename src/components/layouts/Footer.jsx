@@ -104,12 +104,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <a
-          href="#home"
+        <Link
+          to="home"
+          duration={300}
+          smooth={true}
           className=" hover:cursor-pointer w-16 h-16 bg-white rounded-full absolute right-5 bottom-10 lg:bottom-20 lg:right-24 flex justify-center items-center bg-opacity-10 hover:bg-opacity-20"
         >
           <FiChevronUp className="text-white w-6 h-6" />
-        </a>
+        </Link>
       </div>
       <div className="h-16 w-full bg-[#0D3369] flex justify-center items-center">
         <p className="font-sans font-light text-[0.8rem] text-gray-200">

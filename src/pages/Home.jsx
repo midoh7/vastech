@@ -287,20 +287,18 @@ export default function Home() {
             <SwiperSlide className="bg-[#32445c]">
               <div className="bg-[#0D3369] text-gray-100 lg:mx-[9%] h-full">
                 <div className="flex justify-center items-center h-full gap-2 mx-4">
-                  <div className="mr-2 flex-none h-fit sm:-mt-20 -mt-40 lg:-mt-20">
+                  <div className="ml-2 flex-none h-fit sm:-mt-20 -mt-40 lg:-mt-20">
                     <img
                       src={quote}
                       alt="quote"
-                      className="w-14 h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 mr-3 opacity-60 "
+                      className="w-10 h-10 lg:w-16 lg:h-16 xl:w-20 xl:h-20 mr-3 opacity-60 "
                     />
                   </div>
                   <div className="flex flex-col items-start gap-5">
                     <div className="flex gap-3 ">
                       <div className="w-14 h-14 bg-white bg-ceo bg-cover rounded-full "></div>
                       <div className="flex flex-col text-left items-start ">
-                        <h1 className="font-bold text-lg">
-                          Shamsudeen Garba Gumau
-                        </h1>
+                        <h1 className="font-bold text-lg">Shamsudeen Gumau</h1>
                         <div>
                           <p className="font-sans font-light text-[0.8rem] text-gray-200">
                             Imaas Solutions UI/UX Designer
@@ -320,6 +318,7 @@ export default function Home() {
                 </div>
               </div>
             </SwiperSlide>
+
             <SwiperSlide className="bg-[#32445c]">
               <div className="bg-[#0D3369] text-gray-100 lg:mx-[9%] h-full">
                 <div className="flex justify-center items-center h-full gap-2 mx-4">
@@ -356,14 +355,15 @@ export default function Home() {
                 </div>
               </div>
             </SwiperSlide>
+
             <SwiperSlide className="bg-[#32445c]">
               <div className="bg-[#0D3369] text-gray-100 lg:mx-[9%] h-full">
                 <div className="flex justify-center items-center h-full gap-2 mx-4">
-                  <div className="mr-2 flex-none h-fit sm:-mt-20 -mt-40 lg:-mt-20">
+                  <div className="ml-2 flex-none h-fit sm:-mt-20 -mt-40 lg:-mt-20">
                     <img
                       src={quote}
                       alt="quote"
-                      className="w-14 h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 mr-3 opacity-60 "
+                      className="w-10 h-10 lg:w-16 lg:h-16 xl:w-20 xl:h-20 mr-3 opacity-60 "
                     />
                   </div>
                   <div className="flex flex-col items-start gap-5">
