@@ -1,6 +1,7 @@
 import React from "react";
 import vas from "../../assets/images/v.png";
 import vasdark from "../../assets/images/Vasdark.svg";
+import { Link } from "react-scroll";
 
 import HandBugger from "../HandBugger";
 
@@ -27,34 +28,58 @@ export default function Header() {
           </div>
           <div className="flex flex-row gap-0 lg:gap-9 justify-end text-[0.85rem]">
             <div className=" hover:cursor-pointer flex flex-col items-start justify-start group">
-              <a href="/" className="text-[#0D3369] font-[550]">
+              <Link to="home" className="text-[#0D3369] font-[550]">
                 Home
-              </a>
-              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-1000 ease-in-out"></div>
+              </Link>
+              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-300 ease-in-out"></div>
             </div>
             <div className=" hover:cursor-pointer flex flex-col items-start justify-start group">
-              <a href="/" className="text-[#0D3369]  font-[550]">
+              <Link
+                to="about"
+                duration={300}
+                offset={-65}
+                smooth={true}
+                className="text-[#0D3369]  font-[550]"
+              >
                 About
-              </a>
-              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-1000 ease-in-out"></div>
+              </Link>
+              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-300 ease-in-out"></div>
             </div>
             <div className=" hover:cursor-pointer flex flex-col items-start justify-start group">
-              <a href="/" className="text-[#0D3369]  font-[550]">
+              <Link
+                to="service"
+                duration={300}
+                offset={80}
+                smooth={true}
+                className="text-[#0D3369]  font-[550]"
+              >
                 Services
-              </a>
-              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-1000 ease-in-out"></div>
+              </Link>
+              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-300 ease-in-out"></div>
             </div>
             <div className=" hover:cursor-pointer flex flex-col items-start justify-start group">
-              <a href="/" className="text-[#0D3369]  font-[550]">
+              <Link
+                to="clients"
+                duration={300}
+                offset={-50}
+                smooth={true}
+                className="text-[#0D3369]  font-[550]"
+              >
                 Client Stories
-              </a>
-              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-1000 ease-in-out"></div>
+              </Link>
+              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-300 ease-in-out"></div>
             </div>
             <div className=" hover:cursor-pointer flex flex-col items-start justify-start group">
-              <a href="/" className="text-[#0D3369]  font-[550]">
+              <Link
+                to="/"
+                duration={300}
+                offset={65}
+                smooth={true}
+                className="text-[#0D3369]  font-[550]"
+              >
                 Contact Us
-              </a>
-              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-1000 ease-in-out"></div>
+              </Link>
+              <div className="-mt-[0.2rem] w-0 h-[0.2rem] bg-blue-500 lg:group-hover:w-full group-hover:transition duration-300 ease-in-out"></div>
             </div>
           </div>
         </div>

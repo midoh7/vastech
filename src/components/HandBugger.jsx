@@ -7,28 +7,33 @@ import {
   CubeTransparentIcon,
   BookOpenIcon,
 } from "@heroicons/react/solid";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const arr = [
   {
     name: "Home",
     icon: MenuIcon,
+    link: "home",
   },
   {
     name: "About Us",
     icon: UsersIcon,
+    link: "about",
   },
   {
     name: "Services",
     icon: CubeTransparentIcon,
+    link: "service",
   },
   {
     name: "Client Stories",
     icon: BookOpenIcon,
+    link: "clients",
   },
   {
     name: "Contact Us",
     icon: ClipboardListIcon,
+    link: "#",
   },
 ];
 
@@ -60,7 +65,9 @@ export default function Example() {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        to="/"
+                        to={`${el.link}`}
+                        duration={300}
+                        smooth={true}
                         className={`${
                           active
                             ? "bg-blue-500 text-white font-[550]"
