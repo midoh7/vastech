@@ -1,3 +1,7 @@
 export default function Home() {
-  return <div className="py-20 px-10">Link Restricted</div>;
+  return (
+    <div className="flex flex-row justify-center items-center font-bold h-screen">
+      Link Restricted
+    </div>
+  );
 }
