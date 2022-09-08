@@ -5,9 +5,9 @@ import Header from "./Header";
 export default function Layout({ children }) {
   return (
     <React.Fragment>
-      <Header />
+      {/* <Header /> */}
       <main>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }
