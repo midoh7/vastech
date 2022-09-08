@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 import Header from "./Header";
 
 export default function Layout({ children }) {
@@ -7,7 +6,6 @@ export default function Layout({ children }) {
     <React.Fragment>
       <Header />
       <main>{children}</main>
-      {/* <Footer /> */}
     </React.Fragment>
   );
 }
