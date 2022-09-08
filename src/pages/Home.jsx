@@ -35,32 +35,32 @@ export default function Home() {
           <div className="flex items-center">
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between font-[350] text-[0.8rem] md:text-base gap-8 mb-28 mt-1 py-5 w-[73%] border-t-[1.5px] border-opacity-30 border-white mx-4 lg:ml-20 ">
               <div>
-                <div className=" bg-gray-300 text-sm font-normal text-white bg-opacity-30 h-36 sm:h-32 w-full flex flex-col justify-center">
+                <div className=" bg-gray-300 text-sm font-normal text-white bg-opacity-30 h-36 sm:h-32 w-32 md:w-full flex flex-col justify-center">
                   <p className="px-5">E-Procurement Solution (Ondo state)</p>
                 </div>
-                <div className="w-full h-6 bg-white"></div>
+                <div className="w-32 md:w-full h-6 bg-white"></div>
               </div>
               <div>
-                <div className="bg-gray-300 text-sm font-normal text-white bg-opacity-30 h-36 sm:h-32 w-full flex flex-col justify-center">
+                <div className="bg-gray-300 text-sm font-normal text-white bg-opacity-30 h-36 sm:h-32 w-32 md:w-full flex flex-col justify-center">
                   <p className="px-5">
                     Application Video Conference (Replica of Zoom)
                   </p>
                 </div>
-                <div className="w-full h-6 bg-white"></div>
+                <div className="w-32 md:w-full h-6 bg-white"></div>
               </div>
               <div>
-                <div className="bg-gray-300 text-sm font-normal text-white  bg-opacity-30 h-36 sm:h-32 w-full flex flex-col justify-center">
+                <div className="bg-gray-300 text-sm font-normal text-white  bg-opacity-30 h-36 sm:h-32 w-32 md:w-full flex flex-col justify-center">
                   <p className="px-5">
                     Attendance and identity management Solutions (Oyo state)
                   </p>
                 </div>
-                <div className="w-full h-6 bg-white"></div>
+                <div className="w-32 md:w-full h-6 bg-white"></div>
               </div>
               <div>
-                <div className="bg-gray-300 text-sm font-normal text-white  bg-opacity-30 h-36 sm:h-32 w-full flex flex-col justify-center">
+                <div className="bg-gray-300 text-sm font-normal text-white  bg-opacity-30 h-36 sm:h-32 w-32 md:w-full flex flex-col justify-center">
                   <p className="px-5">VIOP and Extension to Mobile Phone</p>
                 </div>
-                <div className="w-full h-6 bg-white"></div>
+                <div className="w-32 md:w-full h-6 bg-white"></div>
               </div>
             </div>
             <div className=" h-28 px-3 sm:px-5 md:px-10 lg:pl-40 flex justify-center items-right mb-28 mt-1 pt-5">

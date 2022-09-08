@@ -13,7 +13,7 @@ export default function Footer() {
     <>
       <div className="w-full h-full lg:h-96 bg-[#32445c] relative">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex w-full lg:w-[70%] xl:w-2/3 justify-around gap-20 md:gap-64 lg:gap-36 xl:gap-[2%] sm:pl-20 pl-5 pt-10">
+          <div className="flex w-full lg:w-[70%] xl:w-2/3 justify-around gap-5 ml-2 sm:ml-5 md:ml-0 md:gap-64 lg:gap-36 xl:gap-[2%] sm:pl-20 pl-5 pt-10">
             <div className="text-white w-full lg:w-72 h-full flex flex-col gap-8 items-start justify-center">
               <h2 className="-mb-3 text-sm font-bold">Contact Info</h2>
 
