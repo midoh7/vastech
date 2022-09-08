@@ -1,10 +1,14 @@
-body {
-  font-family: "Lato", "Mukta", "Noto Serif";
-}
-h1 {
-  font-family: "Catamaran", sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* h1 {
+  font-family: "Catamaran", sans-serif;
+} */
+/* 
 a {
   font-family: "Lato", sans-serif;
 }
@@ -18,7 +22,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-}
+} */
 
 .swiper-pagination {
   margin-bottom: 30px;

@@ -41,6 +41,13 @@ module.exports = {
       backgroundImage: {
         img1: "url('../assets/images/mid.jpg')",
         ceo: "url('../assets/images/CEO.png')",
+        ITsupport: "url('../assets/images/ITsupport.png')",
+        ITguy: "url('../assets/images/itguy.jpeg')",
+        building: "url('../assets/images/building.jpg')",
+        smile: "url('../assets/images/smile.jpeg')",
+        animated: "url('../assets/images/Animated.gif')",
+        about: "url('../assets/images/about.png')",
+        support: "url('../assets/images/support.png')",
       },
       colors: {
         "raxi-1": "#134487",

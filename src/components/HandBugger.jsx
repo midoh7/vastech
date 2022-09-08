@@ -1,35 +1,34 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import {
-  SparklesIcon,
   MenuIcon,
   ClipboardListIcon,
   UsersIcon,
-  InformationCircleIcon,
-  TrendingUpIcon,
-  MailIcon,
+  CubeTransparentIcon,
+  BookOpenIcon,
 } from "@heroicons/react/solid";
+import { Link } from "react-router-dom";
 
 const arr = [
+  {
+    name: "Home",
+    icon: MenuIcon,
+  },
   {
     name: "About Us",
     icon: UsersIcon,
   },
   {
-    name: "What we do",
-    icon: SparklesIcon,
+    name: "Services",
+    icon: CubeTransparentIcon,
   },
   {
-    name: "Vission",
-    icon: TrendingUpIcon,
-  },
-  {
-    name: "Mission",
-    icon: ClipboardListIcon,
+    name: "Client Stories",
+    icon: BookOpenIcon,
   },
   {
     name: "Contact Us",
-    icon: MailIcon,
+    icon: ClipboardListIcon,
   },
 ];
 
@@ -60,19 +59,22 @@ export default function Example() {
                 <div key={i} className="px-1 py-1">
                   <Menu.Item>
                     {({ active }) => (
-                      <button
+                      <Link
+                        to="/"
                         className={`${
-                          active ? "bg-blue-500 text-white" : "text-blue-900"
+                          active
+                            ? "bg-blue-500 text-white font-[550]"
+                            : "text-blue-900 font-[550]"
                         } group flex rounded-md items-center w-full px-2 py-2 text-sm `}
                       >
                         {
                           <el.icon
-                            className="w-5 h-5 mr-2 text-blue-400 group-hover:text-white"
+                            className="w-5 h-5 mr-2 text-blue-900 group-hover:text-white"
                             aria-hidden="true"
                           />
                         }
                         {el.name}
-                      </button>
+                      </Link>
                     )}
                   </Menu.Item>
                 </div>
